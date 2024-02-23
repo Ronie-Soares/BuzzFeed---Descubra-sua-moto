@@ -1,0 +1,76 @@
+{
+    "title":"Descubra qual sua moto!",
+    "questions":[
+      {
+        "id":1,
+        "question": "Você gosta de velocidade?",
+        "options":[
+          {"id": 1, "name":"Sim", "alias":["A"]},
+          {"id": 2, "name":"Não", "alias":["B","E"]},
+          {"id": 3, "name":"Mais ou Menos", "alias":["C","D"]}
+        ]
+      },
+      {
+        "id":2,
+        "question": "Você curte adrenalina?",
+        "options":[
+          {"id": 1, "name":"Sim", "alias":["A","D"]},
+          {"id": 2, "name":"Não", "alias":["B","E"]},
+          {"id": 3, "name":"Mais ou Menos", "alias":["C"]}
+        ]
+      },
+      {
+        "id":3,
+        "question": "Qual marca de moto você prefere?",
+        "options":[
+          {"id": 1, "name":"BMW", "alias":["A","C"]},
+          {"id": 2, "name":"Harley Davidson", "alias":["B"]},
+          {"id": 3, "name":"Kawasaki", "alias":["A"]},
+          {"id": 4, "name":"Yamaha", "alias":["D"]},
+          {"id": 5, "name":"Honda", "alias":["E"]}
+        ]
+      },
+      {
+        "id":4,
+        "question": "Você prefere motos grandes ou pequenas?",
+        "options":[
+          {"id": 1, "name":"Motos Grandes", "alias":["A","B","C"]},
+          {"id": 2, "name":"Motos Pequenas", "alias":["D","E"]}
+        ]
+      },
+      {
+        "id":5,
+        "question": "Tem medo de andar na garupa?",
+        "options":[
+          {"id": 1, "name":"Não! Muito Tranquilo", "alias":["A","D"]},
+          {"id": 2, "name":"Mais ou Menos", "alias":["C"]},
+          {"id": 1, "name":"Morro de Medo", "alias":["B","E"]}
+        ]
+      },
+      {
+        "id":6,
+        "question": "Sabe dar grau?",
+        "options":[
+          {"id": 1, "name":"Não! Morro de Medo", "alias":["B","E"]},
+          {"id": 2, "name":"Sim! Mando Muito", "alias":["D","C"]},
+          {"id": 1, "name":"To quase La", "alias":["A"]}
+        ]
+      },
+      {
+        "id":7,
+        "question": "Última pergunta... Tem medo quando seus amigos pegam sua moto pra dar rolê?",
+        "options":[
+          {"id": 1, "name":"Não! Muito Tranquilo", "alias":["E"]},
+          {"id": 2, "name":"Mais ou Menos", "alias":["D","B"]},
+          {"id": 1, "name":"Morro de Medo", "alias":["A","C"]}
+        ]
+      }
+    ],
+    "results":[
+     {"result":"A","style": "SPEED!", "photo":"https://kawasaki.m3parts.com.br/arquivos/1567793687_19zx1002h_201gy2dls1cg_a.jpg"} ,
+     {"result":"B","style": "CUSTOM!", "photo":"https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-ultra-limited/2024-ultra-limited-m02b/360/2024-ultra-limited-m02b-motorcycle-01.jpg?impolicy=myresize&rw=1600"} ,
+     {"result":"C","style": "BIGTRAIL!", "photo":"https://www.mundomotero.com/wp-content/uploads/2018/01/BMW-R-1200-GS-2018-1024x768.jpg"} ,
+     {"result":"D","style": "CROSS!", "photo":"https://www.motonline.com.br/storage/guides/yamaha/tt-r-230.jpg"} ,
+     {"result":"E","style": "SCOTER!", "photo":"https://br.e-scooter.co/i/ho/nd/honda-pcx-electric/full/2181129eng-pcx-electric_01.webp"}
+    ]
+  }
